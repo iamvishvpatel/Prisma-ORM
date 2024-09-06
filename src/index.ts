@@ -20,7 +20,7 @@ async function insertUser(username: string, password: string, firstName: string,
 
 // insertUser("VishvPatel", "abcdef", "Vishv", "Patel");
 
-// --------- UPDATE PrismaUser Value ------------------------
+// --------- UPDATE PrismaUser Value -----------------------
 
 interface UpdateParams{
     email: string;
